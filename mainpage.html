@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="denemecstasarım.css" type="text/css" />
+    <!--icon için link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- alttaki  link bootstrap css cdn linki   -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- alttaki script linki bootstrap js cdn linki   -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>YMS MOTORS INC.</title>
+  </head>
+
+  <body style="background-color: black; width: 100%">
+    <!-- alttaki image firma logosu altındaki de butonlar  -->
+
+    <div class="header">
+      <img
+        src="./images/pngfind.com-green-car-png-4174354.png"
+        width="60px"
+        height="60px"
+        z-index="1"
+      />
+      <p>YMS MOTORS</p>
+    </div>
+
+    <ul id="manya">
+      <li><a href="mainpage.html">MAIN PAGE</a></li>
+
+      <li><a href="products.html">PRODUCTS</a></li>
+
+      <li><a href="ymsnews.html">YMS NEWS</a></li>
+
+      <li>
+        <a href="aboutus.html">ABOUT US</a>
+
+        <ul>
+          <li><a href="form.html">CONTACT US</a></li>
+          <li><a href="ourvision.html">OUR VISION</a></li>
+          <li><a href="ourmission.html">OUR MISSION</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- alttaki div slider    -->
+
+    <div class="slider">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/a.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Creative design</h3>
+              <p style="font-size: 50px">Our first model on roads...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/nimbus-one-header.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Drive silent...</h3>
+              <p style="font-size: 50px">Model ONE on production line.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/c.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Drive to Future</h3>
+              <p style="font-size: 50px">Our future designs.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- slider divinin sonu   -->
+    <!--cards başlangıcı-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-5">
+          <div class="card-group">
+            <div class="card">
+              <img src="/images/card1.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Online Servis Randevusu.</h5>
+                <p class="card-text">Servise giden en hızlı yol..</p>
+                <a
+                  style="
+                    margin-top: 90px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                  type="btn-outline-info"
+                  class="btn btn-outline-info"
+                  href="form.html"
+                  >Bize Ulaşın</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/card3.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">YEQS, Online Store’da.</h5>
+                <p class="card-text">
+                  YMS Motors-EQ’dan tamamen elektrikli YEQS, Online Store’da
+                  sizi bekliyor. Satışa hazır durumdaki YEQS'leri görüntülemek
+                  ve rezerve etmek için göz atın.
+                </p>
+
+                <a
+                  style="
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    vertical-align: bottom;
+                  "
+                  type="btn-outline-info"
+                  class="btn btn-outline-info"
+                  href="products.html"
+                  >Keşfet</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/card2.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Servis Kampanyaları</h5>
+                <p class="card-text">
+                  Yılmaz Motors’un ayrıcalıklı dünyasını keşfedin.
+                </p>
+                <a
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 90px;
+                  "
+                  type="btn-outline-info"
+                  class="btn btn-outline-info"
+                  href="form.html"
+                  >Servis</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--cards bitiş-->
+    <footer>
+      <div class="col">
+        <p style="text-align: center; margin-top: 50px">
+          Copyright &copy 2022 YMSoftware. All rights reserved.
+        </p>
+
+        <!-- altta font awesome icons -->
+        <h5 id="follow"><strong>Follow Us</strong></h5>
+
+        <a
+          href="https://www.instagram.com/mercedesbenz/?hl=en"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/mercedesbenz?lang=en"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.linkedin.com/company/mercedesbenzturk/?originalSubdomain=tr"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UClj0L8WZrVydk5xKOscI6-A"
+          class="fa fa-youtube"
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

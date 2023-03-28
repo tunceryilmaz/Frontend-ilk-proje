@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="denemecstasarım.css" type="text/css" />
+    <!--icon için link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>YMS MOTORS INC.</title>
+  </head>
+
+  <body style="background-color: black">
+    <div class="header">
+      <img
+        src="./images/pngfind.com-green-car-png-4174354.png"
+        width="60px"
+        height="60px"
+        z-index="1"
+      />
+      <p id="p">YMS MOTORS</p>
+    </div>
+
+    <ul id="manya">
+      <li><a href="mainpage.html">MAIN PAGE</a></li>
+
+      <li><a href="products.html">PRODUCTS</a></li>
+
+      <li><a href="ymsnews.html">YMS NEWS</a></li>
+
+      <li>
+        <a href="aboutus.html">ABOUT US</a>
+
+        <ul>
+          <li><a href="form.html">CONTACT US</a></li>
+          <li><a href="ourvision.html">OUR VISION</a></li>
+          <li><a href="ourmission.html">OUR MISSION</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <div
+      style="
+        width: 50%;
+        padding: 110px;
+        border-style: outset;
+        border-color: rgb(77, 203, 86);
+        border-radius: 20px;
+      "
+    >
+      <form method="post" action="#">
+        <fieldset
+          style="
+            color: white;
+            border-radius: 20px;
+            border-style: inset;
+            border-color: rgb(77, 203, 86);
+          "
+        >
+          <legend>CONTACT FORM</legend>
+
+          <label for="username">Username :</label>
+
+          <br />
+
+          <input
+            type="text"
+            placeholder="USERNAME"
+            id="username"
+            name=""
+            autofocus
+            required
+          />
+
+          <br />
+
+          <label for="parola">Password :</label>
+
+          <br />
+
+          <input
+            type="password"
+            placeholder="PASSWORD"
+            id="parola"
+            maxlength="8"
+            required
+          />
+          <br />
+
+          <label for="email">E - Mail :</label> <br />
+
+          <input
+            type="email"
+            placeholder="MAIL"
+            id="email"
+            name="email"
+            required
+          />
+          <br />
+
+          <label for="tel">Telephone Number :</label> <br />
+
+          <input
+            type="tel"
+            placeholder="PHONE NUMBER"
+            id="tel"
+            pattern="[0-9]{11}"
+          />
+          <br />
+          <br />
+
+          <textarea cols="40" rows="20">Write Your Message Here!!</textarea>
+          <br />
+
+          <input
+            type="submit"
+            id="subbut"
+            value="Submit"
+            onclick="alert('Mesajınız Başarılı İle Alındı!!')"
+          />
+          <input type="reset" id="resbut" value="Reset" />
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <div class="col">
+        <p style="text-align: center; margin-top: 50px">
+          Copyright &copy 2022 YMSoftware. All rights reserved.
+        </p>
+
+        <!-- altta font awesome icons -->
+        <h5 id="follow2"><strong>Follow Us</strong></h5>
+
+        <a
+          href="https://www.instagram.com/mercedesbenz/?hl=en"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/mercedesbenz?lang=en"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.linkedin.com/company/mercedesbenzturk/?originalSubdomain=tr"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UClj0L8WZrVydk5xKOscI6-A"
+          class="fa fa-youtube"
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
